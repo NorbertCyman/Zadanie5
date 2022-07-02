@@ -47,7 +47,7 @@ a{
 #section1{
   margin: 0;
   background-position-x: 100%;
-  background-image: url("gradient3.png");
+  background-image: url("gradient3.PNG");
   background-size: cover;
   padding-top: 10vh;
 }
@@ -134,7 +134,7 @@ section #guides{
 #section3{
   margin: 0;
   background-position-x: 100%;
-  background-image: url("tlo2-kopia.png");
+  background-image: url("tlo2-kopia.PNG");
   background-size: cover;
   padding-top: 40px;
 }
