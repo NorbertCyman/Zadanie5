@@ -2,21 +2,32 @@ const nav = document.querySelector(".nav");
 let lastScrollY = window.scrollY;
 let out = false;
 console.log(nav);
+console.log(window.innerWidth);
 window.addEventListener("scroll", () => {
-    if(lastScrollY < window.scrollY) {
-        nav.classList.add("nav-hidden");
-    } else {
-        nav.classList.remove("nav-hidden");
+    if (window.innerWidth > 500){
+        if(lastScrollY < window.scrollY) {
+            nav.classList.add("nav-hidden");
+        } else {
+            nav.classList.remove("nav-hidden");
+        }
+        lastScrollY = window.scrollY;
     }
-    lastScrollY = window.scrollY;
+});
+window.addEventListener("resize", () => {
+    console.log(window.innerWidth);
+    if(window.innerWidth >= 500){
+        nav.classList.add("nav-hidden");
+    }
 });
 
 function openMenu(){
     if(out){
-        nav.style.top = "-100%";
+        nav.classList.add("nav-hidden");
         out = false;
+        console.log("1");
     }
-    else{nav.style.top = "0px";
+    else{nav.classList.remove("nav-hidden");
     out = true;
+    console.log(2);
     }
 }
