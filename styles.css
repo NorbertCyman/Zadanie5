@@ -209,7 +209,7 @@ section > p{
 /* Large screens */
 @media only screen and (min-width: 800px) {
   .nav{
-    background-color: #2724e8fb;
+    background-color: #2724e8;
     top: 0;
     right: 0;
     overflow-wrap: normal;
@@ -248,7 +248,7 @@ section > p{
 /*Medium size*/
 @media only screen and (max-width: 800px) {
   .nav{
-    background-color: #2724e8fb;
+    background-color: #2724e8;
     top: 0;
     right: 0;
     overflow-wrap: normal;
@@ -288,7 +288,7 @@ section > p{
   @media only screen and (max-width: 600px) {
     ::-webkit-scrollbar{display: none;}
     .nav{
-      background-color: #2724e8fb;
+      background-color: #2724e8;
       top: 0;
       right: 0;
       position: fixed;
@@ -334,7 +334,7 @@ section > p{
       justify-content: space-between;
       height: 50px;
       width: 100vw;
-      background-color: #2724e8fb;
+      background-color: #2724e8;
       position: fixed;
       top: 0;
       left: 0;
@@ -350,7 +350,7 @@ section > p{
       color:#201f7e;
     }
     .nav{
-      background-color: #2724e8fb;
+      background-color: #2724e8;
       top: -100%;
       right: 0;
       position: fixed;
