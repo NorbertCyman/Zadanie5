@@ -1,7 +1,6 @@
 
   *{
     transition: all 0.3s ease;
-  background-color: hwb(241 14% 9%);
   }
   body::-webkit-scrollbar {
     width: 0.25rem;
